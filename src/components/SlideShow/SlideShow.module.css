@@ -1,0 +1,35 @@
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    width: 97vw;
+    background: #00000068;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+#container button{
+    margin: 0 2%;
+    font-size: 100px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    border: none;
+    transition: all 1s ease;
+}
+
+#container button:hover{
+    background: rgba(76, 0, 255, 0.666);
+}
+
+#container h1::before{
+    content: open-quote;
+    font-size: 50px;
+}
+
+#container h1::after{
+    content:close-quote;
+    font-size: 50px;
+}

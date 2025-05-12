@@ -1,0 +1,41 @@
+#nav-bar {
+    display: flex;
+    min-width: 30%;
+    font-size: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    background: #40019a;
+    padding: 2% 0;
+}
+
+#logo {
+    margin-left: 2rem;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+#nav-list {
+    min-width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-btn {
+    text-decoration: none;
+    margin: 0.5rem;
+    color: whitesmoke;
+    transition: all 0.5s ease;
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+}
+
+.nav-btn:hover {
+    background: white;
+    color: #40019a;
+}
+
+.active {
+    color: #40019a;
+    background: white;
+}
