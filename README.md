@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 ###
 
-  <img src="https://contrib.rocks/image?repo=Chandu6702/Quotes.io-Frontend" />
+  
